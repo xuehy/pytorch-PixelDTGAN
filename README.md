@@ -18,6 +18,6 @@ python3 train.py
 
 
 - Install [visdom](https://github.com/facebookresearch/visdom).
-- Start the visdom server with ```python3 -m visdom.server -port 5274```
+- Start the visdom server with ```python3 -m visdom.server 5274```
 - Open this URL in your browser: `http://localhost:5274
 
