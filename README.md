@@ -24,3 +24,7 @@ python3 train.py
 After 22k iterations, the results:
 
 ![22k](https://github.com/xuehy/pytorch-PixelDTGAN/blob/master/example1.png)
+
+
+## Acknowledgement
++ [@fxia22's original repo](https://github.com/fxia22/PixelDTGAN)
