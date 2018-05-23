@@ -23,4 +23,4 @@ python3 train.py
 
 After 22k iterations, the results:
 
-![22k](https://github.com/xuehy/pytorch-PixelDTGAN/blob/master/epoch7.jpg)
+![22k](https://github.com/xuehy/pytorch-PixelDTGAN/blob/master/example1.jpg)
