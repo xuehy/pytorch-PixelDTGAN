@@ -18,6 +18,9 @@ win1 = None
 netg = NetG()
 netd = NetD()
 neta = NetA()
+netg.train()
+netd.train()
+neta.train()
 device = th.device("cuda:2")
 
 # weights init
@@ -130,7 +133,9 @@ while iteration < 1000000:
 
     if iteration % 20 == 0:
         with th.no_grad():
+            netg.eval()
             fake = netg(img)
+            netg.train()
         fake = (fake + 1) / 2 * 255
         real = (ass_label + 1) / 2 * 255
         ori = (img + 1) / 2 * 255
